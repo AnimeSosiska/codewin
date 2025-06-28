@@ -11,7 +11,6 @@
     })
     const projects = projectsData.data.value
     useState("projects", () => projects)
-    console.log(projects)
 </script>
 
 <template lang="pug">
