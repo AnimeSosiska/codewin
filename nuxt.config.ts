@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['nuxt-svgo', 'vue3-carousel-nuxt'],
   app: {
-    baseURL: '/codewin/'
+    baseURL: '/losbio/'
   }
 })
