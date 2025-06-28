@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['nuxt-svgo', 'vue3-carousel-nuxt']
+  modules: ['nuxt-svgo', 'vue3-carousel-nuxt'],
+  app: {
+    baseURL: '/codewin/'
+  }
 })
